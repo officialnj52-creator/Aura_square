@@ -1,0 +1,203 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">AURA</string>
+    <string name="app_full_name">AURA - Classroom Management</string>
+    <string name="app_description">AI-based User Restriction, Attention &amp; Attendance System</string>
+
+    <!-- Main Navigation -->
+    <string name="nav_student_mode">Student Mode</string>
+    <string name="nav_teacher_mode">Teacher Mode</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_emergency">Emergency</string>
+
+    <!-- Class Mode -->
+    <string name="class_mode_title">Class Mode Active</string>
+    <string name="class_mode_description">Your device is currently in Class Mode. Educational apps and necessary tools are accessible.</string>
+    <string name="class_mode_activate">Activate Class Mode</string>
+    <string name="class_mode_deactivate">Exit Class Mode</string>
+    <string name="class_mode_instruction">Class Mode helps you focus during lessons by restricting distracting applications.</string>
+
+    <!-- Emergency System -->
+    <string name="emergency_title">Emergency Request</string>
+    <string name="emergency_description">Tap the button below to notify your teacher immediately if you need help.</string>
+    <string name="emergency_button">Request Help</string>
+    <string name="emergency_sent">Emergency request sent to teacher</string>
+    <string name="emergency_failed">Failed to send emergency request. Please try again.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Welcome to AURA</string>
+    <string name="onboarding_subtitle">AI-powered classroom management system</string>
+    <string name="onboarding_description">AURA helps create a focused learning environment while providing quick access to educational resources and emergency assistance.</string>
+    <string name="onboarding_features">Key Features:</string>
+    <string name="onboarding_feature1">• AI-powered app monitoring and classification</string>
+    <string name="onboarding_feature2">• Class Mode overlay for focused learning</string>
+    <string name="onboarding_feature3">• Real-time teacher notifications</string>
+    <string name="onboarding_feature4">• Emergency help requests</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="onboarding_finish">Get Started</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">AURA Required Permissions</string>
+    <string name="permissions_subtitle">AURA needs several permissions to function properly in the classroom environment</string>
+    <string name="permissions_grant_all">Grant All Permissions</string>
+    <string name="permissions_granted">All permissions granted - AURA is ready!</string>
+    <string name="permissions_denied">Some permissions are required for full functionality</string>
+
+    <!-- Permission Descriptions -->
+    <string name="permission_overlay_title">System Overlay</string>
+    <string name="permission_overlay_description">Required to display Class Mode overlay and attention controls</string>
+    <string name="permission_media_projection_title">Screen Capture</string>
+    <string name="permission_media_projection_description">Required for AI app monitoring and classification</string>
+    <string name="permission_accessibility_title">Accessibility Service</string>
+    <string name="permission_accessibility_description">Required to detect when students try to leave Class Mode</string>
+    <string name="permission_usage_stats_title">Usage Access</string>
+    <string name="permission_usage_stats_description">Required to monitor app usage for attendance tracking</string>
+    <string name="permission_location_title">Location</string>
+    <string name="permission_location_description">Required to detect AURA classroom networks</string>
+
+    <!-- AI Classification -->
+    <string name="ai_classification_education">Educational</string>
+    <string name="ai_classification_messaging">Messaging</string>
+    <string name="ai_classification_social">Social Media</string>
+    <string name="ai_classification_video">Video</string>
+    <string name="ai_classification_game">Games</string>
+    <string name="ai_classification_unknown">Unknown</string>
+
+    <!-- Teacher Dashboard -->
+    <string name="dashboard_title">Teacher Dashboard</string>
+    <string name="dashboard_session_active">Session Active</string>
+    <string name="dashboard_sessions">Sessions</string>
+    <string name="dashboard_students">Students</string>
+    <string name="dashboard_analytics">Analytics</string>
+    <string name="dashboard_emergency_requests">Emergency Requests</string>
+
+    <!-- Session Management -->
+    <string name="session_create_title">Create New Session</string>
+    <string name="session_name">Session Name</string>
+    <string name="session_subject">Subject</string>
+    <string name="session_duration">Duration</string>
+    <string name="session_create">Create Session</string>
+    <string name="session_start">Start Session</string>
+    <string name="session_stop">Stop Session</string>
+    <string name="session_pause">Pause Session</string>
+    <string name="session_resume">Resume Session</string>
+    <string name="session_finalize">Finalize Attendance</string>
+
+    <!-- Student Monitoring -->
+    <string name="monitoring_title">Student Monitoring</string>
+    <string name="monitoring_active_students">Active Students</string>
+    <string name="monitoring_attendance">Attendance</string>
+    <string name="monitoring_attention">Attention Level</string>
+    <string name="monitoring_app_usage">App Usage</string>
+    <string name="monitoring_emergency_alerts">Emergency Alerts</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Session Analytics</string>
+    <string name="analytics_overview">Overview</string>
+    <string name="analytics_attendance_rate">Attendance Rate</string>
+    <string name="analytics_attention_score">Average Attention Score</string>
+    <string name="analytics_distraction_count">Distraction Events</string>
+    <string name="analytics_emergency_count">Emergency Requests</string>
+    <string name="analytics_export">Export Data</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+
+    <!-- General Settings -->
+    <string name="settings_user_role">User Role</string>
+    <string name="settings_classroom_id">Classroom ID</string>
+    <string name="settings_teacher_id">Teacher ID</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_auto_class_mode">Auto Class Mode</string>
+
+    <!-- Privacy Settings -->
+    <string name="settings_data_collection">Data Collection</string>
+    <string name="settings_offline_mode">Offline Mode</string>
+    <string name="settings_encryption">End-to-End Encryption</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+
+    <!-- Network Status -->
+    <string name="network_connected">Connected to AURA Network</string>
+    <string name="network_disconnected">Network Disconnected</string>
+    <string name="network_searching">Searching for AURA Networks...</string>
+    <string name="network_aura_found">AURA Network Found: %s</string>
+    <string name="network_connecting">Connecting to network...</string>
+    <string name="network_failed">Connection Failed</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_class_mode">Class Mode</string>
+    <string name="notification_channel_emergency">Emergency Alerts</string>
+    <string name="notification_channel_sync">Data Sync</string>
+    <string name="notification_channel_general">General</string>
+
+    <string name="notification_class_mode_active">Class Mode is currently active</string>
+    <string name="notification_emergency_request">Emergency request from student: %s</string>
+    <string name="notification_sync_complete">Data synchronization complete</string>
+    <string name="notification_session_started">Session started: %s</string>
+    <string name="notification_session_ended">Session ended: %s</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">An error occurred. Please try again.</string>
+    <string name="error_network">Network connection required. Please check your internet connection.</string>
+    <string name="error_permissions">Required permissions are missing. Please check your settings.</string>
+    <string name="error_session_creation">Failed to create session. Please try again.</string>
+    <string name="error_class_mode">Failed to activate Class Mode. Please check permissions.</string>
+    <string name="error_emergency">Failed to send emergency request. Please contact teacher directly.</string>
+    <string name="error_database">Database error. Please restart the app.</string>
+    <string name="error_authentication">Authentication failed. Please log in again.</string>
+
+    <!-- Success Messages -->
+    <string name="success_session_created">Session created successfully</string>
+    <string name="success_session_started">Session started successfully</string>
+    <string name="success_session_ended">Session ended successfully</string>
+    <string name="success_class_mode_activated">Class Mode activated successfully</string>
+    <string name="success_class_mode_deactivated">Class Mode deactivated successfully</string>
+    <string name="success_emergency_sent">Emergency request sent successfully</string>
+    <string name="success_data_synced">Data synchronized successfully</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_name">AURA Class Mode Monitor</string>
+    <string name="accessibility_service_description">Monitors app usage to maintain Class Mode and provide assistance when needed</string>
+
+    <!-- Common Actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_done">Done</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_view">View</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Time Formats -->
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d days ago</string>
+    <string name="time_now">Now</string>
+    <string name="time_today">Today</string>
+    <string name="time_yesterday">Yesterday</string>
+
+    <!-- Debug -->
+    <string name="debug_activity_name">Debug Panel</string>
+    <string name="debug_title">AURA Debug Information</string>
+    <string name="debug_database_status">Database Status</string>
+    <string name="debug_network_status">Network Status</string>
+    <string name="debug_permissions_status">Permissions Status</string>
+    <string name="debug_service_status">Service Status</string>
+    <string name="debug_ai_status">AI Model Status</string>
+    <string name="test_class_mode">Test Class Mode</string>
+    <string name="test_emergency">Test Emergency</string>
+    <string name="clear_data">Clear Local Data</string>
+</resources>
